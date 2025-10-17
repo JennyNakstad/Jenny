@@ -14,7 +14,6 @@ img {
 }
 
 
-
 header {
     position: fixed;
     top: 0;
@@ -119,4 +118,12 @@ main {
     border: 2px solid white;
     border-radius: 20px;
     margin-top: 20px;
+}
+
+.spørsmål {
+    display: grid;
+    grid-template-columns: repeat(6fr);
+    grid-template-rows: 2;
+    border: 1px solid black;
+    height: 500px;
 }
