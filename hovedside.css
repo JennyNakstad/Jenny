@@ -120,10 +120,26 @@ main {
     margin-top: 20px;
 }
 
-.spørsmål {
+.dilemma {
+    background-color: rgb(255, 200, 227);
+    height: 1000px;
+}
+
+.dilemmacontainer {
     display: grid;
-    grid-template-columns: repeat(6fr);
-    grid-template-rows: 2;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(255, 200, 227);
+    grid-template-rows: 2; 
+    gap: 10px;
+}
+
+.svar {
+    height: 300px;
     border: 1px solid black;
-    height: 500px;
+    text-align: center;
+}
+
+.dilemmabilde > img {
+    width: 200px;
+    margin-top: 20px;
 }
