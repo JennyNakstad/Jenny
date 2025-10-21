@@ -144,6 +144,9 @@ main {
     height: 300px;
     border: 1px solid black;
     text-align: center;
+}
+
+p {
     font-weight: bold;
 }
 

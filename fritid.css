@@ -1,0 +1,233 @@
+ body {
+     background-color: rgb(255, 200, 227);
+ }
+
+ * {
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ img {
+     width: 100%;
+ }
+
+ header {
+     position: fixed;
+     top: 0;
+     left: 0;
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     height: 40px;
+     justify-content: space-evenly;
+     align-items: center;
+     border: 1px solid black;
+     background-color: #1d1d1f;
+ }
+
+ header>div {
+     font-size: 12px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     letter-spacing: 0.02em;
+     font-weight: 550;
+     color: #f5f5f7;
+ }
+
+
+ .title {
+     margin: 50px;
+     letter-spacing: 0.04em;
+     font-weight: bold;
+     font-size: 60px;
+     text-align: center;
+     text-decoration: underline;
+ }
+
+ .underoverskrift {
+     margin: 50px;
+     letter-spacing: 0.04em;
+     font-weight: bold;
+     font-size: 40px;
+     text-align: center;
+     background-color: #F1F1F1;
+     text-align: center;
+     padding: 20px;
+ }
+
+ .intro {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     margin: auto;
+ }
+
+ .introtekstbox {
+     height: 500px;
+     width: 500px;
+     border: 1px solid black;
+     border-radius: 10%;
+     padding: 20px;
+     background-color: white;
+ }
+
+ .introbildebox {
+     height: 500px;
+     width: 500px;
+     border: 1px solid black;
+     border-radius: 10%;
+     background-image: url(bilder/hvitbelte1.jpg);
+     background-position: center;
+     background-size: cover;
+ }
+
+ .info {
+     display: flex;
+     height: 300px;
+     width: 1000px;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+ }
+
+ .tekst {
+     height: 200px;
+     width: 800px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     background: rgba(255, 255, 255, 0.2);
+     padding: 20px;
+ }
+
+ .poomsaeogsparring {
+     display: flex;
+     gap: 20px;
+     margin: auto;
+ }
+
+ .sparring {
+     height: 700px;
+     width: 1000px;
+     border: 4px solid white;
+     padding: 20px;
+     background-image: url(bilder/sparring.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     margin-bottom: 100px;
+
+ }
+
+ .poomsae {
+     height: 700px;
+     width: 1000px;
+     border: 4px solid white;
+     padding: 20px;
+     background-image: url(bilder/poomsae.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     margin-bottom: 100px;
+ }
+
+ .poomsaesparringtekst {
+     height: 200px;
+     width: 600px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     background: rgba(255, 255, 255, 0.2);
+     padding: 20px;
+     margin-top: 450px;
+
+ }
+
+ .konkurranser {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     margin: auto;
+     place-items: center;
+
+ }
+
+ .Nordisk {
+     height: 400px;
+     width: 400px;
+     border: 1px solid black;
+     padding: 20px;
+     margin-bottom: 40px;
+     place-items: center;
+     background-image: url(bilder/nordisk.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+ }
+
+ .Tyrkia {
+     height: 400px;
+     width: 400px;
+     border: 1px solid black;
+     padding: 20px;
+     margin-bottom: 40px;
+     place-items: center;
+     background-image: url(bilder/tyrkia.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+ }
+
+ .Bulgaria {
+     height: 400px;
+     width: 400px;
+     border: 1px solid black;
+     padding: 20px;
+     margin-bottom: 40px;
+     place-items: center;
+     background-image: url(bilder/bulgaria.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+ }
+
+ .Belgia {
+     height: 400px;
+     width: 400px;
+     border: 1px solid black;
+     padding: 20px;
+     margin-bottom: 40px;
+     place-items: center;
+     background-image: url(bilder/belgia.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+ }
+
+ .EM {
+     height: 400px;
+     width: 400px;
+     border: 1px solid black;
+     padding: 20px;
+     margin-bottom: 40px;
+     place-items: center;
+     background-image: url(bilder/em.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+ }
+
+ .Østerrike {
+     height: 400px;
+     width: 400px;
+     border: 1px solid black;
+     padding: 20px;
+     margin-bottom: 40px;
+     place-items: center;
+     background-image: url(bilder/katt.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+ }
+
+ .konkurransetekst {
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+ }
