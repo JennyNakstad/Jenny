@@ -41,7 +41,7 @@ main {
     width: 100%;
     max-width: 800px;
     margin: auto;
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 40px;
     background-color: rgb(255, 200, 227);
 }
@@ -140,14 +140,17 @@ main {
 }
 
 .svar {
+    display: grid;
     height: 300px;
     border: 1px solid black;
     text-align: center;
+    font-weight: bold;
 }
+
 
 .dilemmabilde > img {
     width: 200px;
-    margin-top: 20px;
+    margin:auto;
 }
 
 .dilemmaoverskrift {
