@@ -52,6 +52,7 @@
 
  .title {
      margin: 50px;
+     margin-top: 70px;
      letter-spacing: 0.04em;
      font-weight: bold;
      font-size: 60px;
@@ -263,3 +264,4 @@
      color: white;
      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
  }
+

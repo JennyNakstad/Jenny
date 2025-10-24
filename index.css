@@ -51,7 +51,6 @@ header>div {
     width: 100%;
     max-width: 800px;
     margin: auto;
-    border: 2px solid black;
     padding: 40px;
     background-color: rgb(255, 200, 227);
 }
@@ -63,7 +62,7 @@ h2 {
 .megtekst {
     font-size: 14px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.07em;
     font-weight: 400;
 }
 
@@ -180,7 +179,7 @@ p {
     margin: auto;
 }
 
-.dilemmaoverskrift {
+.underoverskrift {
     margin: 50px;
     letter-spacing: 0.04em;
     font-weight: bold;
@@ -192,4 +191,37 @@ p {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+}
+
+.fremtid {
+    background-color: rgb(255, 200, 227);
+    height: 1000px;
+    padding-top: 50px;
+}
+
+.fremtidcontainer {
+    display: flex;
+    gap: 20px;
+    justify-content: center; 
+}
+
+.fremtidbilde {
+    border-radius: 2px solid white;
+    height: 400px;
+    width: 400px;
+    filter: grayscale(100%);
+}
+
+.fremtidtext {
+    border-radius: 2px solid white;
+    height: 350px;
+    width: 600px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #5d5d5d;
 }
