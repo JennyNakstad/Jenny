@@ -77,10 +77,12 @@ h2 {
 
 .title {
     margin: 50px;
+    margin-top: 70px;
     letter-spacing: 0.04em;
     font-weight: bold;
     font-size: 60px;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .tekst {
