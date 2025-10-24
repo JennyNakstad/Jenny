@@ -21,6 +21,10 @@ header {
     background-color: #1d1d1f;
 }
 
+a {
+    color: white;
+}
+
 header>div {
     font-size: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -37,6 +41,9 @@ header>div {
     font-size: 60px;
     text-align: center;
     text-decoration: underline;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .underoverskrift {
@@ -48,6 +55,9 @@ header>div {
     background-color: #F1F1F1;
     text-align: center;
     padding: 20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .container {
@@ -64,7 +74,7 @@ header>div {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border: 1px solid black;
+    border: 2px solid white;
     transition: 0.5s;
 }
 
