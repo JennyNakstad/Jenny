@@ -221,4 +221,13 @@ p {
 
 footer {
     background-color: #5d5d5d;
+    height: 500px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.footeritem {
+    height: 200px;
+    width: 100%;
 }
