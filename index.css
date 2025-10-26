@@ -192,7 +192,7 @@ p {
 
 .fremtid {
     background-color: rgb(255, 200, 227);
-    height: 1000px;
+    height: 800px;
     padding-top: 50px;
 }
 
@@ -220,14 +220,33 @@ p {
 }
 
 footer {
-    background-color: #5d5d5d;
-    height: 500px;
+    background-color: rgb(247, 226, 236);
+    height: 400px;
+    width: 100%;
+}
+
+footer h2 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.footercontainer {
+    height: 200px;
     width: 100%;
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    gap: 50px;
+    max-width: 600px;
+    margin: auto;
 }
 
 .footeritem {
-    height: 200px;
     width: 100%;
+    border: 3px solid white;
+    border-radius: 100px;
+}
+
+.footerbilde {
+    width: 100%; 
 }
